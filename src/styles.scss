@@ -24,6 +24,11 @@ $divider-color:        #BDBDBD;
     padding: $pad-up-down $pad-left-right;
 }
 
+::ng-deep .mat-list .mat-list-item .mat-line{
+  word-wrap: break-word;
+ white-space: pre-wrap;
+}
+
 .container {
     margin: 20px;
     display: flex;

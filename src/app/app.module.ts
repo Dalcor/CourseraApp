@@ -12,6 +12,10 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
@@ -51,7 +55,11 @@ import { LeaderService } from './services/leader.service';
     MatButtonModule,
     MatCardModule,
     MatGridListModule,
-    MatDialogModule
+    MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    MatCheckboxModule
   ],
   entryComponents: [
     LoginComponent
